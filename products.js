@@ -519,7 +519,7 @@ const imagemHigiene1 = document.createElement("img")
 
 itemHigiene1.appendChild(imagemHigiene1)
 
-imagemHigiene1.src = "./img/products/product_9.svg"
+imagemHigiene1.src = products[8].image
 
 imagemHigiene1.className = "product-img"
 
@@ -569,7 +569,7 @@ const imagemHigiene2 = document.createElement("img")
 
 itemHigiene2.appendChild(imagemHigiene2)
 
-imagemHigiene2.src = "./img/products/product_10.svg"
+imagemHigiene2.src = products[9].image
 
 imagemHigiene2.className = "product-img"
 
@@ -619,7 +619,7 @@ const imagemHigiene3 = document.createElement("img")
 
 itemHigiene3.appendChild(imagemHigiene3)
 
-imagemHigiene3.src = "./img/products/product_11.svg"
+imagemHigiene3.src = products[10].image
 
 imagemHigiene3.className = "product-img"
 
@@ -669,7 +669,7 @@ const imagemHigiene4 = document.createElement("img")
 
 itemHigiene4.appendChild(imagemHigiene4)
 
-imagemHigiene4.src = "./img/products/no-img.svg"
+imagemHigiene4.src = products[11].image
 
 imagemHigiene4.className = "product-img"
 

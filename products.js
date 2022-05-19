@@ -3,7 +3,7 @@ const products = [
     title: "Uva Crimson",
     price: 8.99,
     category: "Frutas",
-    image: "no-img.svg",
+    image: "./img/products/no-img.svg",
     imageDescription: "imagem de uvas crimson",
   },
   {
@@ -31,7 +31,7 @@ const products = [
     title: "Refrigerante",
     price: 8.99,
     category: "Bebidas",
-    image: "no-img.svg",
+    image: "./img/products/no-img.svg",
     imageDescription: "imagem de refrigerante",
   },
   {
@@ -45,7 +45,7 @@ const products = [
     title: "Água Tônica",
     price: 8.99,
     category: "Bebidas",
-    image: "no-img.svg",
+    image: "./img/products/no-img.svg",
     imageDescription: "imagem de uma água tônica",
   },
   {
@@ -84,7 +84,7 @@ const products = [
     title: "Lustra Móveis",
     price: 8.99,
     category: "Higiene",
-    image: "no-img.svg",
+    image: "./img/products/no-img.svg",
     imageDescription: "imagem de um lustra móveis",
   },
 ];
@@ -107,7 +107,7 @@ const imagemFruta1 = document.createElement("img")
 
 itemFruta1.appendChild(imagemFruta1)
 
-imagemFruta1.src = "./img/products/no-img.svg"
+imagemFruta1.src = products[0].image
 
 imagemFruta1.className = "product-img"
 
@@ -157,7 +157,7 @@ const imagemFruta2 = document.createElement("img")
 
 itemFruta2.appendChild(imagemFruta2)
 
-imagemFruta2.src = "./img/products/product_2.svg"
+imagemFruta2.src = products[1].image
 
 imagemFruta2.className = "product-img"
 
@@ -207,7 +207,7 @@ const imagemFruta3 = document.createElement("img")
 
 itemFruta3.appendChild(imagemFruta3)
 
-imagemFruta3.src = "./img/products/product_3.svg"
+imagemFruta3.src = products[2].image
 
 imagemFruta3.className = "product-img"
 
@@ -257,7 +257,7 @@ const imagemFruta4 = document.createElement("img")
 
 itemFruta4.appendChild(imagemFruta4)
 
-imagemFruta4.src = "./img/products/product_4.svg"
+imagemFruta4.src = products[3].image
 
 imagemFruta4.className = "product-img"
 
@@ -313,7 +313,7 @@ const imagemBebida1 = document.createElement("img")
 
 itemBebida1.appendChild(imagemBebida1)
 
-imagemBebida1.src = "./img/products/no-img.svg"
+imagemBebida1.src = products[4].image
 
 imagemBebida1.className = "product-img"
 
@@ -363,7 +363,7 @@ const imagemBebida2 = document.createElement("img")
 
 itemBebida2.appendChild(imagemBebida2)
 
-imagemBebida2.src = "./img/products/product_6.svg"
+imagemBebida2.src = products[5].image
 
 imagemBebida2.className = "product-img"
 
@@ -413,7 +413,7 @@ const imagemBebida3 = document.createElement("img")
 
 itemBebida3.appendChild(imagemBebida3)
 
-imagemBebida3.src = "./img/products/no-img.svg"
+imagemBebida3.src = products[6].image
 
 imagemBebida3.className = "product-img"
 
@@ -463,7 +463,7 @@ const imagemBebida4 = document.createElement("img")
 
 itemBebida4.appendChild(imagemBebida4)
 
-imagemBebida4.src = "./img/products/product_8.svg"
+imagemBebida4.src = products[7].image
 
 imagemBebida4.className = "product-img"
 
